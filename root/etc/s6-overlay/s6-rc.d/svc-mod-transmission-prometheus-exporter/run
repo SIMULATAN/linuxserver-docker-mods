@@ -4,4 +4,4 @@
 # It depends on init-services, the baseimage hook for start of all longrun services
 
 exec \
-    s6-setuidgid abc transmission-exporter
+    s6-setuidgid abc transmission-exporter-`uname -m`
